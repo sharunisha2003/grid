@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    margin-top: 30px;
+}
+.d1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.p{
+    width: 250px;
+    border: 1px solid black;
+    text-align: center;
+    padding-bottom: 10px;
+}
+button{
+    height: 30px;
+    background-color: black;
+    color: white;;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+}
+.d2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    border: 2px solid palevioletred;
+    margin-top: 10px;
+    background-color: rgb(219, 159, 86);
+}
+p{
+    padding-left: 10px;
+}
+.l1,.l2{
+    border-right: 3px solid pink    ;
+}
+.l4,.l5
+{
+    border-right: 3px solid palevioletred;   
+}
